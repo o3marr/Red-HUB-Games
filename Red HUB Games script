@@ -1,0 +1,82 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/u88sELdu"))()
+local window = kavoUi.CreateLib("Red HUB Games","BloodTheme")
+---BloodTheme 
+---Tabs
+local Tab1 = window:NewTab("Games")
+local Tab1Section = Tab1:NewSection("Games")
+local Tab2 = window:NewTab("Credits")
+local Tab2Section = Tab2:NewSection("Made By Gaming")
+local Tab2Section = Tab2:NewSection("YouTube | 1VS1GAMING")
+local Tab2Section = Tab2:NewSection("Discord | 1vs1geming")
+local Tab2Section = Tab2:NewSection("Discord Server | https://discord.gg/FCdpYZ4uWK")
+local Tab2 = window:NewTab("Updates")
+local Tab2Section = Tab2:NewSection("All Updates")
+local Tab3 = window:NewTab("Others")
+local Tab3Section = Tab3:NewSection("Others")
+
+---Buttons
+Tab1Section:NewButton("Breaking Point", "No description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ColdStep2/Breaking-Point-Funny-Squid-Hax/main/Breaking%20Point%20Funny%20Squid%20Hax", true))()
+end)
+
+Tab1Section:NewButton("Murder Mystery 2", "No description", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/MM2%20Admin%20Panel', true))()
+end)
+
+Tab1Section:NewButton("Brookhaven🏡RP", "No description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+Tab1Section:NewButton("Blade Ball", "No description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+end)
+
+Tab1Section:NewButton("Doors 👁 [🌐]", "No description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end)
+
+Tab1Section:NewButton("Arsenal","No description",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
+end)
+
+Tab1Section:NewButton("💪Muscle Legends", "No description",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/harisiskandar178/Roblox-Script/main/Muscle%20Legend"))()
+end)
+
+Tab1Section:NewButton("Rainbow Friends","No description",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Rainbow-Friends/main/Rainbow%20Friends"))()
+end)
+
+Tab1Section:NewButton("Bloxfruit", "REDzHUB", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+end)
+
+Tab1Section:NewButton("Bloxfruit", "ChibaHuB", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/KindIhave/ChibaHuB/main/Chiba-BF.txt'))()
+end)
+
+---Tap 2 Updates
+
+Tab2Section:NewButton("Added more games","Aresenal & Doors 👁 &  Brookhaven🏡RP ",function()
+end)
+
+Tab2Section:NewButton("Added Teleport And Fly","No description",function()
+end)
+
+---Tap 3 Others
+
+Tab3Section:NewButton("Fly","No description",function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+end)
+
+Tab3Section:NewButton("Keyboard GUI","No description",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+Tab3Section:NewButton("Infinity yield FE","No description",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Tab3Section:NewButton("Teleport","Teleport To player",function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/DagerFild/b4776075a0d26ef04394133ee6bd2081/raw/0ed51ac94057d2d9a9f00e1b037b9011c76ca54a/tpGUI", true))()
+end)
